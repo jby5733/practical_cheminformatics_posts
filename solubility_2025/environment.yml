@@ -1,0 +1,32 @@
+name: polaris
+channels:
+  - pytorch
+  - nvidia
+  - rdkit
+  - conda-forge
+dependencies:
+  - python
+  - ipython
+  - jupyterlab
+  - numpy
+  - scipy
+  - pandas
+  - seaborn
+  - openpyxl
+  - scikit-learn
+  - pytorch
+#  - cudatoolkit  # not available on Mac
+  - torchvision
+  - lightning
+  - torchmetrics
+  - future
+  - tqdm
+  - mypy
+  - rdkit
+  - molvs
+  - polaris=0.13.0
+  - pip
+  - pip:
+      - xgboost
+      - useful_rdkit_utils==0.89.0
+
